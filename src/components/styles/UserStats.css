@@ -1,0 +1,23 @@
+.user-stats {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid hsl(205, 33%, 90%);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.user-stats div {
+  text-align: center;
+}
+
+.user-stats strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(224, 21%, 14%);
+}
+
+.user-stats p {
+  color: hsl(219, 12%, 42%);
+  font-size: 14px;
+}

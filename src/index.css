@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,11 +24,17 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 74%, 44%);
+  background-image: url('/src/assets/bg-pattern-top.svg'),url('/src/assets/bg-pattern-bottom.svg') ;
+  background-position: -22rem -19rem, 10rem 450px;
+  background-size: 160%, 160%;
+  background-repeat: no-repeat;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 h1 {
@@ -64,5 +71,15 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+  body {
+    background-image: url('/src/assets/bg-pattern-top.svg'),url('/src/assets/bg-pattern-bottom.svg') ;
+    background-position: -30rem -35rem, 40rem 400px;
+    background-size: 80%, 80%;
+
   }
 }

@@ -9,6 +9,9 @@ function App() {
     <>
      <div className="card-container">
       <div className="card">
+        < div className="background">
+          <img src="/src/assets/bg-pattern-card.svg" alt="Background Pattern" className="background-image" />
+        </div>
         <Avatar/>
         <UserInfo/>
         <UserStats/>

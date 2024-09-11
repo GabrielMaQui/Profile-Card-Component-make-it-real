@@ -1,4 +1,4 @@
-import './UserStats.css';
+import './styles/UserStats.css';
 
 function UserStats() {
   return (
