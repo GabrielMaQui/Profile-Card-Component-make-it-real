@@ -29,9 +29,11 @@ Users should be able to:
 
 ## My process
 #### Desktop
+![image](https://github.com/user-attachments/assets/995c961e-cc70-4b7f-99aa-5e008a0c2a96)
 
 
 #### Mobile
+![image](https://github.com/user-attachments/assets/81d4feba-921c-41b1-a9e8-2aa1bba2efb9)
 
 
 
